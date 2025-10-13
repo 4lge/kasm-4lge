@@ -1,0 +1,35 @@
+{
+  "description": "A Debian KASM image with Statistics Software.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "debian.png",
+  "name": "4lge/kasm-debian-stat:master",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
+  "categories": [
+    "OS"
+  ],
+  "friendly_name": "Debian Statistics",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "4lge/kasm-debian-stat:1.17.0",
+      "uncompressed_size_mb": 1012,
+      "available_tags": [
+        "develop"
+      ]
+    }
+  ]
+}
+

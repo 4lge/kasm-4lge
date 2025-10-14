@@ -25,7 +25,7 @@
     {
       "version": "1.17.x",
       "image": "4lge/kasm-debian-stat:1.17.0",
-      "uncompressed_size_mb": 1012,
+      "uncompressed_size_mb": 3600,
       "available_tags": [
         "develop"
       ]

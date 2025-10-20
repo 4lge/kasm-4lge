@@ -27,7 +27,7 @@
       "image": "4lge/kasm-ubuntu-webtop:1.17.0",
       "uncompressed_size_mb": 6900,
       "available_tags": [
-        "master"
+        "main"
       ]
     }
   ]

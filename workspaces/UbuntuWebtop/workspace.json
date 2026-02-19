@@ -25,7 +25,7 @@
     {
       "version": "1.17.x",
       "image": "4lge/kasm-ubuntu-webtop:1.17.0",
-      "uncompressed_size_mb": 21000,
+      "uncompressed_size_mb": 27000,
       "available_tags": [
         "main"
       ]

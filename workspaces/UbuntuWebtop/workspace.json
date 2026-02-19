@@ -4,7 +4,7 @@
   "image_src": "ubuntu.png",
   "name": "4lge/kasm-ubuntu-webtop:main",
   "run_config": {
-    "hostname": "kasm"
+    "hostname": "ubuntu-kasm"
   },
   "exec_config": {
     "go": {

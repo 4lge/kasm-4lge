@@ -23,8 +23,8 @@
   ],
   "compatibility": [
     {
-      "version": "1.17.x",
-      "image": "4lge/kasm-ubuntu-webtop:1.17.0",
+      "version": "1.19.x",
+      "image": "4lge/kasm-ubuntu-webtop:1.19.0",
       "uncompressed_size_mb": 18400,
       "available_tags": [
         "main"
